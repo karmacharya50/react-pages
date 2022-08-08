@@ -2,7 +2,7 @@ import React from "react";
 import TodoItem from "./TodoItem";
 
 
-export default function Todos(probs) {
+export default function Todos(probs) {    
     const todolist = probs.todos_list;
     return (
         <div className="container">
